@@ -1,0 +1,59 @@
+body {
+    background-image: url("hangar.jpeg");
+    background-size: cover;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15%;
+    height: auto;
+}    
+*{
+
+ color: rgb(255, 255, 255);
+}
+.box {
+    background-color: rgb(10, 66, 15);
+    width: 50%;
+    max-width: 400px;
+    margin: 20px auto;
+    border: 1px solid #000;
+    padding: 10px; /* Changed 1px to 10px for padding */
+    max-height: 20%; /* Changed max height to max-height */
+    border-radius: 10%; /* Applied 10% border radius to make corners round */
+  }
+
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin: 20px auto;
+    margin-left: 20px;
+    border-radius: 10%;
+}
+
+#increment-btn {
+    background: darkred;
+}
+
+#save-btn {
+    background: darkgreen;
+}
+#delete-btn {
+    background: rgb(119, 140, 48);
+
+}
